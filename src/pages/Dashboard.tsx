@@ -65,17 +65,7 @@ const Dashboard: React.FC = () => {
           </div>
 
           {/* Gradio Interface */}
-          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 md:p-8 mb-12">
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Interactive Model Interface</h2>
-            <div className="aspect-video w-full rounded-lg overflow-hidden">
-              <iframe
-                src="https://1ad179a152385e3887.gradio.live"
-                className="w-full h-full border-0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
-            </div>
-          </div>
+         
           
           <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 md:p-8 mb-12">
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Select a Stock</h2>
